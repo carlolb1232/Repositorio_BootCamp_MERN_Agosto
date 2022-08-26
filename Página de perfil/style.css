@@ -1,0 +1,299 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body{
+  font-family: 'Balsamiq Sans', cursive;
+}
+/* Inicio estilos del nav */
+nav{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 20px;
+}
+
+.nav{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container{
+  width: 60vw;
+  margin: 0 20vw;
+}
+
+.sections{
+  display: flex;
+  justify-content: space-between;
+}
+
+h2{
+  margin: 0 15px;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+}
+
+li{
+  list-style: none;
+  margin: 0 10px;
+}
+
+.sign-out{
+  color: white;
+  background-color: rgb(23,162,184);
+  padding: 5px 10px;
+}
+
+/* Fin estilos del nav */
+
+/* Inicio de contenido principal */
+
+/* Inicio de perfil propio */
+
+/* Inicio de datos de perfil */
+
+.main-content{
+  display: flex;
+}
+
+.own-information{
+  width: 55%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(206,206,206);
+  margin-bottom: 5%;
+}
+
+.profile-header{
+  background-color: rgb(23,162,184);
+  margin-bottom: 50px;
+}
+
+.profile-header img{
+  position: relative;
+  top: 50px;
+  left: 25px;
+}
+
+.profile-header img{
+  width: 125px;
+  height: auto;
+  border: 3px solid black;
+  border-radius: 65px;
+}
+
+.place{
+  display: flex;
+  align-items: center;
+  margin: 10px 15px;
+}
+
+.icon{
+  width: 15px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.description{
+  margin: 10px 15px;
+}
+
+.description p{
+  margin: 5px 0;
+}
+
+.edit-profile{
+  margin: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.edit-profile a{
+  color: rgb(50,106,161);
+}
+
+/* Fin de datos de perfil */
+
+/* Inicio de referencias */
+
+
+
+.references{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(206,206,206);
+}
+
+.references-header{
+  background-color: rgb(51,51,51);
+}
+
+.references-header p{
+  color: white;
+  margin: 10px 15px;
+}
+
+.education{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 15px;
+}
+
+.education h2{
+  margin: 0;
+}
+
+.education > div{
+  margin-bottom: 10px;
+}
+
+.education-date p{
+  color: rgb(136,136,136);
+}
+
+
+/* Fin de referencias */
+
+/* Fin de perfil propio */
+
+/* Inicio de Red de contactos */
+
+/* Inicio de areas de solicitudes */
+
+.people-information{
+  width: 35%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.connections-request-container{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(206,206,206);
+  margin-bottom: 5%;
+
+}
+
+.connections-request-header{
+  background-color: rgb(51,51,51);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 15px;
+}
+
+.quantity{
+  padding: 6px 12px;
+  background-color: rgb(204,204,204);
+  color: black;
+  border: 1px solid black;
+  border-radius: 17px;
+}
+
+.connections-request-header-title{
+  color: white;
+}
+
+.connections-request-people{
+  display: flex;
+  flex-direction: column;
+}
+
+.request-people{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.people-info{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.action-buttons img{
+  width: 55px;
+  height: auto;
+}
+
+.people{
+  width: 75px;
+  margin-right: 10px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 40px;
+}
+
+/* Fin de areas de solicitudes */
+
+/* Inicio de conecciomnes */
+
+.conections-container{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(206,206,206);
+
+}
+
+
+.conections-container-header{
+  background-color: rgb(51,51,51);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 15px;
+}
+
+.conections-container-header .title{
+  color: white;
+}
+
+.bigger{
+  padding: 6px 15px;
+  border-radius: 20px;
+}
+
+.connectios-people{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+.people-info{
+  display: flex;
+  align-items: center;
+  margin: 7px 0;
+}
+
+/* Fin de conecciones */
+
+/* Inicio de ver mas */
+
+.mas{
+  display: flex;
+  border: 2px solid rgb(206,206,206);
+  padding: 10px 15px;
+  color: rgb(69,117,167);
+}
+
+/* Inicio de ver mas */
+
+/* Fin de Red de contactos */
+
+/* Fin de contenido principal*/
+
